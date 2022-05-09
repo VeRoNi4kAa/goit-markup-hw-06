@@ -757,6 +757,13 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         align-items: center;
         justify-content: center;
     }
+    span.check-icon {
+        border: 2px solid;
+        display:inline-block;
+        width: 16px;
+        height: 15px;
+        border-radius: 2px;
+    }
     .checkbox-a{
         color: #2196F3;
     }
@@ -791,9 +798,9 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 .check-icon{
  display:inline-block;
 width: 16px;
-height: 15px;
+height: 18px;
 border-radius: 2px;
-border: 0.2px solid;
+
 }
 .checkbox-input:checked + .check-icon{
     border-color: transparent;
@@ -826,9 +833,7 @@ height: 120px;
     .form-input-com:focus, .form-input-com:hover{
         border-color: #2196F3;
     }
-    .form{
-     
-    }
+
   .form-field textarea::placeholder{
     font-weight: 400;
     font-size: 14px;
@@ -850,7 +855,6 @@ height: 120px;
         left: 10px;
         transform: translateY(-50%);
         display: inline-block;
-    
     }
 .footer-inp{
     display: flex;
